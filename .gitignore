@@ -3,3 +3,7 @@
 /.config
 /.config.old
 /dl/
+
+# Personal git ignore
+/lichee
+/package

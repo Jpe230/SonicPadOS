@@ -6,7 +6,7 @@
       "toolchain/": true,
       "tools/": true,
       "prebuilt/": true,
-      "out/": true
+      "out/": true,
     },
       "workbench.localHistory.exclude": {
         "lichee/": true,
