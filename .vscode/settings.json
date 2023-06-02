@@ -1,0 +1,20 @@
+{
+    "files.watcherExclude": {
+      "lichee/": true,
+      "dl/": true,
+      "packages/": true,
+      "toolchain/": true,
+      "tools/": true,
+      "prebuilt/": true,
+      "out/": true
+    },
+      "workbench.localHistory.exclude": {
+        "lichee/": true,
+        "dl/": true,
+        "packages/": true,
+        "toolchain/": true,
+        "tools/": true,
+        "prebuilt/": true,
+        "out/": true
+      }
+}
