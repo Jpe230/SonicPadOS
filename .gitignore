@@ -4,6 +4,9 @@
 /.config.old
 /dl/
 
-# Personal git ignore
+# Personal git ignore, for now i wont touch Lichee or package
 /lichee
 /package
+dump.txt
+sw-*-rdiff
+scp.bin
