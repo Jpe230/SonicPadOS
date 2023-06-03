@@ -1,6 +1,6 @@
 software =
 {
-			version = "1.0.6.48.57";
+	version = "1.0.6.48.57";
     description = "Firmware update for Tina Project";
 
     stable = {
@@ -52,7 +52,7 @@ software =
                 },
                 {
                     name = "swu_version";
-															value = "1.0.6.48.57";
+					value = "1.0.6.48.57";
                 },
                 {
                     name = "build_type";
@@ -112,7 +112,7 @@ software =
                 },
                 {
                     name = "swu_version";
-															value = "1.0.6.48.57";
+					value = "1.0.6.48.57";
                 },
                 {
                     name = "build_type";

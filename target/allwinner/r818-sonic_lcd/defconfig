@@ -2449,19 +2449,7 @@ CONFIG_PACKAGE_alsa-conf-aw=y
 # CONFIG_PACKAGE_awrpaf_plugin is not set
 # CONFIG_PACKAGE_awsystrace is not set
 # CONFIG_PACKAGE_benchmarks is not set
-CONFIG_PACKAGE_boot-play=y
-
-#
-# Configuration
-#
-# CONFIG_BOOT_PLAY_IN_PREINIT is not set
-CONFIG_BOOT_PLAY_USE_JPEGDECODER_DE=y
-CONFIG_BOOT_ANIMATION_PRIORITY=-20
-CONFIG_BOOT_MUSIC_PRIORITY=-10
-# CONFIG_BOOT_ANIMATION_EACHLOAD_IMAGE is not set
-CONFIG_BOOT_PLAY_COMPLETE_ANIMATION=y
-# CONFIG_BOOT_PLAY_COMPLETE_MUSIC is not set
-# CONFIG_BOOT_PLAY_COMPLETE_TIMEOUT is not set
+# CONFIG_PACKAGE_boot-play is not set
 CONFIG_PACKAGE_camerademo=y
 CONFIG_ENABLE_VIN_ISP=y
 # CONFIG_PACKAGE_eyesee-minigui is not set
@@ -2837,28 +2825,23 @@ CONFIG_PACKAGE_wifimanager-demo=y
 #
 # Creality
 #
-CONFIG_PACKAGE_ai-engine=y
-CONFIG_PACKAGE_avr-gcc=y
+# CONFIG_PACKAGE_ai-engine is not set
+# CONFIG_PACKAGE_avr-gcc is not set
 CONFIG_PACKAGE_brightness=y
-# CONFIG_PACKAGE_c-smart-brain-python is not set
-# CONFIG_PACKAGE_c-smart-brain-web-pad is not set
-CONFIG_PACKAGE_cameraInfo=y
-CONFIG_PACKAGE_delayed_imaging=y
-CONFIG_PACKAGE_fluidd=y
-CONFIG_PACKAGE_fluidd-pad=y
-CONFIG_PACKAGE_gcc-arm-none-eabi=y
-CONFIG_PACKAGE_klipper=y
-CONFIG_PACKAGE_klipper-brain=y
+# CONFIG_PACKAGE_cameraInfo is not set
+# CONFIG_PACKAGE_delayed_imaging is not set
+# CONFIG_PACKAGE_fluidd is not set
+# CONFIG_PACKAGE_fluidd-pad is not set
+# CONFIG_PACKAGE_gcc-arm-none-eabi is not set
+# CONFIG_PACKAGE_klipper is not set
+# CONFIG_PACKAGE_klipper-brain is not set
 CONFIG_PACKAGE_lcd_display=y
 CONFIG_PACKAGE_libCrLog=y
-CONFIG_PACKAGE_libsliceservice=y
-CONFIG_PACKAGE_mainsail=y
-CONFIG_PACKAGE_monitor=y
-CONFIG_PACKAGE_moonraker=y
-CONFIG_PACKAGE_ncnn-yolov5=y
-# CONFIG_PACKAGE_p2p-proxy is not set
-# CONFIG_PACKAGE_p2p_demo is not set
-CONFIG_PACKAGE_restore=y
+# CONFIG_PACKAGE_mainsail is not set
+# CONFIG_PACKAGE_monitor is not set
+# CONFIG_PACKAGE_moonraker is not set
+# CONFIG_PACKAGE_ncnn-yolov5 is not set
+# CONFIG_PACKAGE_restore is not set
 CONFIG_PACKAGE_rtsp_demo=y
 CONFIG_PACKAGE_usb_rest=y
 
@@ -4190,17 +4173,18 @@ CONFIG_PACKAGE_zlib=y
 # CONFIG_LUCI_LANG_uk is not set
 # CONFIG_LUCI_LANG_hu is not set
 # CONFIG_LUCI_LANG_pt is not set
-# CONFIG_LUCI_LANG_ro is not set
+# CONFIG_LUCI_LANG_no is not set
 # CONFIG_LUCI_LANG_en is not set
 # CONFIG_LUCI_LANG_pl is not set
 # CONFIG_LUCI_LANG_sk is not set
 # CONFIG_LUCI_LANG_ru is not set
 # CONFIG_LUCI_LANG_vi is not set
-# CONFIG_LUCI_LANG_de is not set
-# CONFIG_LUCI_LANG_no is not set
+# CONFIG_LUCI_LANG_he is not set
+# CONFIG_LUCI_LANG_ro is not set
+# CONFIG_LUCI_LANG_pt-br is not set
 # CONFIG_LUCI_LANG_ms is not set
 # CONFIG_LUCI_LANG_zh-cn is not set
-# CONFIG_LUCI_LANG_he is not set
+# CONFIG_LUCI_LANG_de is not set
 # CONFIG_LUCI_LANG_zh-tw is not set
 # CONFIG_LUCI_LANG_tr is not set
 # CONFIG_LUCI_LANG_sv is not set
@@ -4208,7 +4192,6 @@ CONFIG_PACKAGE_zlib=y
 # CONFIG_LUCI_LANG_el is not set
 # CONFIG_LUCI_LANG_ca is not set
 # CONFIG_LUCI_LANG_es is not set
-# CONFIG_LUCI_LANG_pt-br is not set
 # CONFIG_LUCI_LANG_cs is not set
 # CONFIG_LUCI_LANG_fr is not set
 # CONFIG_LUCI_LANG_it is not set
@@ -4795,85 +4778,12 @@ CONFIG_WPA_MSG_MIN_PRIORITY=3
 #
 # Qt
 #
-# CONFIG_PACKAGE_qt-browser is not set
-CONFIG_PACKAGE_qt-browser2=y
 # CONFIG_PACKAGE_qt-easing is not set
 # CONFIG_PACKAGE_qt-keyboard is not set
-# CONFIG_PACKAGE_qt-minimal is not set
 # CONFIG_PACKAGE_qt-textures is not set
 # CONFIG_PACKAGE_qt-washing-machine is not set
-CONFIG_PACKAGE_qt5-core=y
-CONFIG_QT5_USE_PREBUILT=y
-# CONFIG_PACKAGE_qt5-3d is not set
-# CONFIG_PACKAGE_qt5-bluetooth is not set
-# CONFIG_PACKAGE_qt5-charts is not set
-# CONFIG_PACKAGE_qt5-clucene is not set
-CONFIG_PACKAGE_qt5-concurrent=y
-# CONFIG_PACKAGE_qt5-datavis3d is not set
-CONFIG_PACKAGE_qt5-dbus=y
-# CONFIG_PACKAGE_qt5-drivers-audio is not set
-# CONFIG_PACKAGE_qt5-drivers-customwidget is not set
-CONFIG_PACKAGE_qt5-drivers-imageformats=y
-# CONFIG_PACKAGE_qt5-drivers-keyboard is not set
-# CONFIG_PACKAGE_qt5-drivers-linuxfb is not set
-# CONFIG_PACKAGE_qt5-drivers-mouse is not set
-CONFIG_PACKAGE_qt5-drivers-touchscreen=y
-CONFIG_PACKAGE_qt5-drivers-virtualkeyboard=y
-# CONFIG_PACKAGE_qt5-drivers-worldtimeclock is not set
-# CONFIG_PACKAGE_qt5-enginio is not set
-# CONFIG_PACKAGE_qt5-examples is not set
-# CONFIG_PACKAGE_qt5-gamepad is not set
-# CONFIG_PACKAGE_qt5-graphicaleffects is not set
-# CONFIG_PACKAGE_qt5-gsttools is not set
-CONFIG_PACKAGE_qt5-gui=y
-# CONFIG_PACKAGE_qt5-help is not set
-CONFIG_PACKAGE_qt5-labs-folderlistmodel=y
-# CONFIG_PACKAGE_qt5-labstemplates is not set
-# CONFIG_PACKAGE_qt5-location is not set
-# CONFIG_PACKAGE_qt5-multimedia is not set
-CONFIG_PACKAGE_qt5-network=y
-# CONFIG_PACKAGE_qt5-nfc is not set
-CONFIG_PACKAGE_qt5-opengl=y
-CONFIG_PACKAGE_qt5-positioning=y
-# CONFIG_PACKAGE_qt5-printsupport is not set
-# CONFIG_PACKAGE_qt5-purchasing is not set
-CONFIG_PACKAGE_qt5-qml=y
-CONFIG_PACKAGE_qt5-quick=y
-CONFIG_PACKAGE_qt5-quick-2=y
-CONFIG_PACKAGE_qt5-quick-controls=y
-CONFIG_PACKAGE_qt5-quick-controls-2=y
-# CONFIG_PACKAGE_qt5-quick-dialogs is not set
-# CONFIG_PACKAGE_qt5-quick-extras is not set
-CONFIG_PACKAGE_qt5-quick-layouts=y
-# CONFIG_PACKAGE_qt5-quick-localstorage is not set
-# CONFIG_PACKAGE_qt5-quick-particles is not set
-# CONFIG_PACKAGE_qt5-quick-privatewidgets is not set
-# CONFIG_PACKAGE_qt5-quick-scene3d is not set
-CONFIG_PACKAGE_qt5-quick-virtualkeyboard=y
-CONFIG_PACKAGE_qt5-quick-window=y
-# CONFIG_PACKAGE_qt5-quick-xmllistmodel is not set
-# CONFIG_PACKAGE_qt5-quickparticles is not set
-CONFIG_PACKAGE_qt5-quickwidgets=y
-CONFIG_PACKAGE_qt5-remoteobjects=y
-# CONFIG_PACKAGE_qt5-script is not set
-# CONFIG_PACKAGE_qt5-scripttools is not set
-# CONFIG_PACKAGE_qt5-scxml is not set
-# CONFIG_PACKAGE_qt5-sensors is not set
-# CONFIG_PACKAGE_qt5-serialbus is not set
-# CONFIG_PACKAGE_qt5-serialport is not set
-# CONFIG_PACKAGE_qt5-speech is not set
-# CONFIG_PACKAGE_qt5-sql is not set
-CONFIG_PACKAGE_qt5-svg=y
-# CONFIG_PACKAGE_qt5-test is not set
-CONFIG_PACKAGE_qt5-virtualkeyboard=y
-# CONFIG_PACKAGE_qt5-wayland is not set
-CONFIG_PACKAGE_qt5-webchannel=y
-CONFIG_PACKAGE_qt5-webengine=y
-CONFIG_PACKAGE_qt5-websocket=y
-CONFIG_PACKAGE_qt5-webview=y
-CONFIG_PACKAGE_qt5-widgets=y
-# CONFIG_PACKAGE_qt5-xml is not set
-# CONFIG_PACKAGE_qt5-xmlpatterns is not set
+# CONFIG_PACKAGE_qt5-core is not set
+# CONFIG_QT5_USE_PREBUILT is not set
 
 #
 # ROS
