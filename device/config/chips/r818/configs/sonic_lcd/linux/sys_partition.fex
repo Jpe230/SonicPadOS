@@ -70,14 +70,8 @@ size = 512
     user_type    = 0x8000
 
 [partition]
-    name         = rootfsA
-    size         = 1048576
-    downloadfile = "rootfs.fex"
-    user_type    = 0x8000
-
-[partition]
-    name         = rootfsB
-    size         = 1048576
+    name         = rootfs
+    size         = 2097152
     downloadfile = "rootfs.fex"
     user_type    = 0x8000
 
