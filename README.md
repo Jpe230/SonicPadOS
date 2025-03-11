@@ -2,7 +2,11 @@
 
 ## Original instructions
 
-It is recommended to use Ubuntu18.04 to compile sonic_pad_os, and install the related Package dependency "sudo apt install git gcc gawk flex libc6:i386 libstdc++6:i386 lib32z1 libncurses5 libncurses5-dev python g++ libz-dev libssl-dev make p7zip-full"
+It is recommended to use Ubuntu18.04 to compile sonic_pad_os, and install the related Package dependency:
+```
+sudo dpkg --add-architecture i386
+sudo apt install git gcc gawk flex libc6:i386 libstdc++6:i386 lib32z1 libncurses5 libncurses5-dev python g++ libz-dev libssl-dev make p7zip-full
+```
 1. Download the code: git clone https://github.com/CrealityTech/sonic_pad_os.git
 2. Download the dl package, save the downloaded dl package in the sonic_pad_os/dl directory.
    Download link: https://klipper.cxswyjy.com/download/sonic_dl/
